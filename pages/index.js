@@ -4,9 +4,11 @@ import Header from "../components/Header";
 import ServiceCard from "../components/ServiceCard";
 import Socials from "../components/Socials";
 import WorkCard from "../components/WorkCard";
+import AppsmithEmbed from "../components/AppsmithEmbed";
 
 // Local Data
 import data from "../yourData";
+import AppsmithEmbed from "../components/AppsmithEmbed";
 
 export default function Home() {
   // Ref
@@ -79,6 +81,7 @@ export default function Home() {
           {data.aboutpara}
         </p>
       </div>
+      <AppsmithEmbed/>
       <div className="mt-40 mob:mt-5 laptop:mt-40 mob:p-2 laptop:p-0">
         <h1 className="text-2xl text-bold">Contact.</h1>
         <div className="mt-5">
