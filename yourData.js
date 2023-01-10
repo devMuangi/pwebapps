@@ -3,10 +3,10 @@ export default {
   //Change The Website Template
 
   //   Header Details ---------------------
-  name: "chetan",
-  headerTaglineOne: "Hello 👋",
+  name: "uphundi",
+  headerTaglineOne: "Translating your vision into reality.",
   headerTaglineTwo:
-    "I'm Chetan Verma - curious designer and devloper based in New Delhi, India. ",
+    "Contact uphundi to assemble a team of experts in software development,project management and product design for all your solution needs ",
 
   socials: [
     { title: "Github", link: "https://github.com/chetanverma16" },

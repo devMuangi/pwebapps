@@ -4,11 +4,10 @@ import Header from "../components/Header";
 import ServiceCard from "../components/ServiceCard";
 import Socials from "../components/Socials";
 import WorkCard from "../components/WorkCard";
-import AppsmithEmbed from "../components/AppsmithEmbed";
+
 
 // Local Data
 import data from "../yourData";
-import AppsmithEmbed from "../components/AppsmithEmbed";
 
 export default function Home() {
   // Ref
@@ -39,10 +38,10 @@ export default function Home() {
         handleAboutScroll={handleAboutScroll}
       />
       <div className="laptop:mt-20 mob:mt-10">
-        <h1 className="mt-5 text-8xl mob:text-3xl laptop:text-8xl mob:p-2 text-bold w-4/5 mob:w-full laptop:w-4/5">
-          {data.headerTaglineOne} <br />
-          {data.headerTaglineTwo}
-        </h1>
+        <h2 className="mt-5 text-8xl mob:text-3xl laptop:text-8xl mob:p-2 text-bold w-4/5 mob:w-full laptop:w-4/5">
+          {data.headerTaglineOne}</h2> <br />
+         <p> {data.headerTaglineTwo}
+        </p>
         <Socials className="mt-5 mob:mt-2 laptop:mt-5" />
       </div>
       <div
@@ -81,7 +80,6 @@ export default function Home() {
           {data.aboutpara}
         </p>
       </div>
-      <AppsmithEmbed/>
       <div className="mt-40 mob:mt-5 laptop:mt-40 mob:p-2 laptop:p-0">
         <h1 className="text-2xl text-bold">Contact.</h1>
         <div className="mt-5">
